@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ecommerce Store(Ruppee).iml" filepath="$PROJECT_DIR$/Ecommerce Store(Ruppee).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greenfarm vegetables.iml" filepath="$PROJECT_DIR$/Greenfarm vegetables.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
