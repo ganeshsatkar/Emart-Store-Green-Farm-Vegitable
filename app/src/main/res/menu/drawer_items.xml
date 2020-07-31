@@ -36,6 +36,11 @@
                 android:id="@+id/call"
                 android:icon="@drawable/contact_icon"
                 android:title="Call" />
+            <item
+                android:id="@+id/whatsapp"
+                android:icon="@drawable/new_more_icon"
+                android:title="WhatsApp Support" />
+
         </menu>
     </item>
     <item android:title="Others">

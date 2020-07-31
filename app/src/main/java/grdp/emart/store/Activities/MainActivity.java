@@ -1,6 +1,7 @@
 package grdp.emart.store.Activities;
 
 import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -14,6 +15,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
@@ -119,6 +121,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.appInfo:
                         loadFragment(new AppInfo(), true);
                         break;
+                    case R.id.whatsapp:
+                        whatsApp();
+                        break;
                     case R.id.share:
                         shareApp();
                         break;
@@ -159,6 +164,28 @@ public class MainActivity extends AppCompatActivity {
         intent.setData(Uri.parse("tel:" + getResources().getString(R.string.contactNo)));
         startActivity(intent);
     }
+
+
+
+
+
+    private void whatsApp() {
+        Uri uri = Uri.parse("https://wa.me/+917447810729");
+
+        Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+
+        likeIng.setPackage("com.android.chrome");
+
+        try {
+            startActivity(likeIng);
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://wa.me/+917447810729")));
+        }
+    }
+
+
+
 
     private void openGmail() {
         // perform click on Email ID

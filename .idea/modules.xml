@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Greenfarm vegetables.iml" filepath="$PROJECT_DIR$/Greenfarm vegetables.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Greenfarm_vegetables.iml" filepath="$PROJECT_DIR$/.idea/modules/Greenfarm_vegetables.iml" group="Greenfarm_vegetables" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Greenfarm vegetables/app" />
     </modules>
   </component>
 </project>

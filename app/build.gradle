@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-   // buildToolsVersion '26.0.2'
+    // buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId 'grdp.emart.store'
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 22
-        versionName "1.2.2"
+        versionCode 26
+        versionName "1.2.6"
         multiDexEnabled true
 
     }
@@ -26,13 +26,13 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
     //compile 'com.android.support:recyclerview-v7:24.1.1'
-   // compile 'com.android.support:design:24.1.1'
+    // compile 'com.android.support:design:24.1.1'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.squareup.retrofit:retrofit:1.9.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.google.firebase:firebase-ads:9.6.0'
-   /* implementation 'com.google.firebase:firebase-analytics:9.6.0'
-    implementation 'com.google.firebase:firebase-messaging:9.6.0'*/
+    /* implementation 'com.google.firebase:firebase-analytics:9.6.0'
+     implementation 'com.google.firebase:firebase-messaging:9.6.0'*/
     implementation 'com.google.firebase:firebase-analytics:16.4.0'
     implementation 'com.google.firebase:firebase-messaging:17.5.0'
     implementation 'com.google.firebase:firebase-core:16.0.8'
@@ -40,7 +40,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:16.3.0'
     implementation 'com.google.firebase:firebase-messaging:17.4.0'
     implementation 'com.google.firebase:firebase-core:16.0.7'*/
-   // implementation 'com.google.firebase:firebase-core:9.6.0'
+    // implementation 'com.google.firebase:firebase-core:9.6.0'
     //compile 'com.android.support:cardview-v7:25.3.1'
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'

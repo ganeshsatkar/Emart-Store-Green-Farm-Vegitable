@@ -251,20 +251,20 @@
                         android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
-
-                        <RadioButton
-                            android:id="@+id/razorPay"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Pay Using Debit Card/Net Banking/Wallet/UPI" />
-
                         <RadioButton
                             android:id="@+id/cod"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:text="Cash On Delivery" />
+
+                        <RadioButton
+                            android:id="@+id/razorPay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Online Payment Coming Soon..." />
+
                     </RadioGroup>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
