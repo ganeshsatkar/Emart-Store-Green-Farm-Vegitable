@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void whatsApp() {
-        Uri uri = Uri.parse("https://wa.me/+917447810729");
+        Uri uri = Uri.parse("https://wa.me/+917304097847");
 
         Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
 

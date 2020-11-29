@@ -52,7 +52,7 @@
 
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_2a5AzSvBKz1A4K" />
+            android:value="rzp_live_VteMfkersv7yEH" />
 
 
         <!-- Firebase Notifications -->
