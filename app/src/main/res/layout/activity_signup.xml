@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbackground"
-    tools:context="grdp.emart.store.grdp.emart.store.Activities.Login">
+    tools:context="grdp.emart.store.Activities.Login">
 
 
     <ScrollView
@@ -28,6 +28,14 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="30dp"
                 android:src="@drawable/appicon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/beta_msg"
+                android:textColor="@color/red_btn_bg_color"
+                />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/usernameLayout"

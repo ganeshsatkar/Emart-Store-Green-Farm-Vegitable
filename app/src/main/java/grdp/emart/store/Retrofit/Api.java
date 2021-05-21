@@ -11,7 +11,7 @@ public class Api {
 
         // change your base URL
         RestAdapter adapter = new RestAdapter.Builder()
-                .setEndpoint("http://greenfarmveggi.com") //Set the Root URL
+                .setEndpoint("http://ektafoundation.in") //Set the Root URL
                 .build(); //Finally building the adapter
 
         //Creating object for our interface

@@ -40,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxLines="3"
-                    android:text="Application Name"
+                    android:text="About Us"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -48,13 +48,67 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/txtAppName"
-                    android:maxLines="3"
-                    android:text="@string/app_name"
+                    android:maxLines="10"
+                    android:text="@string/aboutus"
                     android:textSize="13sp" />
 
             </RelativeLayout>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white">
+
+            <ImageView
+                android:id="@+id/appNameImg1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:tint="@color/light_black"
+                android:src="@drawable/home_icon" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/appNameImg1">
+
+                <TextView
+                    android:id="@+id/txtAppName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:text="Register Office"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtAppName1"
+                    android:maxLines="6"
+                    android:text="@string/office"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -101,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/terms"
                     android:maxLines="3"
-                    android:text="Green Farm Enterprises Pvt Ltd."
+                    android:text="GRDP INFOTECH LLP"
                     android:textSize="13sp" />
 
             </RelativeLayout>
@@ -204,7 +258,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/txtCopyright"
                     android:maxLines="3"
-                    android:text="Copyright 2019 Green Farm Vegetables \n All rights reserved"
+                    android:text="Copyright 2021 Green Farm Vegetables \n All rights reserved"
                     android:textSize="13sp" />
 
             </RelativeLayout>

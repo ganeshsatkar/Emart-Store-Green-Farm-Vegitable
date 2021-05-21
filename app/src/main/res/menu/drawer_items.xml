@@ -56,7 +56,20 @@
             <item
                 android:id="@+id/appInfo"
                 android:icon="@drawable/info_icon"
-                android:title="App Info" />
+                android:title="About App" />
+            <item
+                android:id="@+id/tandc"
+                android:icon="@drawable/new_more_icon"
+                android:title="Turms and Condition" />
+            <item
+                android:id="@+id/privacypolicy"
+                android:icon="@drawable/new_more_icon"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/refund"
+                android:icon="@drawable/new_more_icon"
+                android:title="Refund Policy" />
+
         </menu>
     </item>
 </menu>

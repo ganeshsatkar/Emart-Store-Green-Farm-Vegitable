@@ -124,6 +124,17 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.whatsapp:
                         whatsApp();
                         break;
+
+                    case R.id.tandc:
+                       tandcApp();
+                        break;
+                    case R.id.privacypolicy:
+                        privacypolicyApp();
+                        break;
+                    case R.id.refund:
+                        RefundApp();
+                        break;
+
                     case R.id.share:
                         shareApp();
                         break;
@@ -170,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void whatsApp() {
-        Uri uri = Uri.parse("https://wa.me/+917304097847");
+        Uri uri = Uri.parse("https://wa.me/+917020862427");
 
         Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
 
@@ -180,7 +191,56 @@ public class MainActivity extends AppCompatActivity {
             startActivity(likeIng);
         } catch (ActivityNotFoundException e) {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://wa.me/+917447810729")));
+                    Uri.parse("https://wa.me/+917020862427")));
+        }
+    }
+
+
+    private void tandcApp() {
+        Uri uri = Uri.parse("https://www.grdpinfotech.com/terms-and-conditions-greenfarm/");
+
+        Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+
+        likeIng.setPackage("com.android.chrome");
+
+        try {
+            startActivity(likeIng);
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://www.grdpinfotech.com/terms-and-conditions-greenfarm/")));
+        }
+    }
+
+
+    private void privacypolicyApp() {
+        Uri uri = Uri.parse("https://www.grdpinfotech.com/privacy-policy-greenfarm/");
+
+        Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+
+        likeIng.setPackage("com.android.chrome");
+
+        try {
+            startActivity(likeIng);
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://www.grdpinfotech.com/privacy-policy-greenfarm/")));
+        }
+    }
+
+
+
+    private void RefundApp() {
+        Uri uri = Uri.parse("https://www.grdpinfotech.com/refunds-policy-greenfarm/");
+
+        Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+
+        likeIng.setPackage("com.android.chrome");
+
+        try {
+            startActivity(likeIng);
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://www.grdpinfotech.com/refunds-policy-greenfarm/")));
         }
     }
 
